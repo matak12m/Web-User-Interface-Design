@@ -1,0 +1,54 @@
+
+
+#treeImg {
+
+    width: 100%;
+
+}
+
+
+header {
+    text-align: center;
+    font-size: 40pt;
+    font-family:'Cambria';
+}
+
+.text {
+    font-size: 20pt;
+    font-family:Georgia;
+    float: left;
+}
+
+#menu {
+    
+    float: right;
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+    background-color: darkolivegreen;
+}
+
+#menuHolder {
+    float: right;
+    width:20vw;
+}
+
+button {
+    margin-left: 2.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: 15vw;
+    height: 5vw;
+    background-color: lightgreen;
+    border-radius: 20%;
+    border: 2px solid darkslategrey;
+    
+}
+
+span {
+    font-style: italic;
+    
+    color: blue;
+}
+
