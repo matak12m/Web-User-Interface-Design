@@ -1,0 +1,96 @@
+
+body {
+    background-color:rgb(230, 226, 192);
+}
+
+#deepseagreen {
+    background-color: #60992dff;
+    width: 100%;
+    height: 30%;
+
+    float: left;
+
+}
+
+
+#treeImg {
+
+    width: 40%;
+    float: left;
+    background-color: #0e402dff;
+
+}
+
+
+
+header {
+    text-align: center;
+    font-size: 40pt;
+    font-family:'Cambria';
+    color:aliceblue;
+    background-color: #0e402dff;
+}
+
+.text {
+    font-size: 12pt;
+    font-family:Georgia;
+    float: left;
+    width: 60%;
+
+}
+
+#menu {
+    
+    float: right;
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #60992dff;
+    visibility:hidden;
+}
+
+#menuHolder {
+    float: right;
+    width:20vw;
+}
+
+
+#expandMenu {
+    float: right;
+    height: 2vw;
+    width: 2vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color:#946846ff;
+}
+
+button {
+    margin-left: 2.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: 15vw;
+    height:5vh;
+    background-color: rgb(230, 226, 192);
+    border-radius: 20%;
+    border: 2px solid #946846ff;
+    
+}
+
+span {
+    font-style: italic;
+    
+    color: blue;
+}
+
+
+
+ /*--asparagus: #60992dff;
+--olivine: #8cae68ff;
+--thistle: #d3c1d2ff;
+--british-racing-green: #0e402dff;
+--raw-umber: #946846ff;
+*/
+
