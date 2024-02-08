@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matt Martinek">
+        <title>lab 2</title>
+        <link href="assets/css/style.css" rel="stylesheet" text="text/css">
+    </head>
+    <body>
+        
+    
+    <section id = "menu">
+        
+        <button onclick = "redirHomePage()"> home page </button>
+        <button onclick = "redirSignUp()"> sign up </button>
+        <button> official articles</button>
+        <button> services near me</button>
+        <button> community page</button> 
+
+    </section>
+    
+
+    <div class = "menuHolder">
+    <div id = "expandMenu"></div>
+    </div>
+
+
+       <header> Arboreal Community Foundation <p> Planting the roots for growth </header>
+        <div class = "textbox">
+
+            <p style = "padding: 1%;">
+            Here you can see how our community has grown over time, as well as how many trees we have planted, which is one of our goals.
+            Click on the header words to sort the table!
+           </p>
+
+        <table id = "statisticsTable">
+            
+            <th onclick = "sortTable(0)">month</th><th onclick = "sortTable(1)">new users</th>  <th onclick = "sortTable(2)"> number of visits</th> <th onclick = "sortTable(3)">trees planted together</th>
+
+            <tr>
+               <td>January</td> <td> 81</td>  <td> 1492</td> <td>379</td>
+                
+            </tr>
+
+            <tr>
+                <td>December</td> <td> 78</td>  <td> 2901 </td> <td>124</td>
+                 
+             </tr>
+
+             <tr>
+                <td>November</td> <td> 53</td>  <td> 1893 </td> <td>179</td>
+                 
+             </tr>
+        </table>
+        </div>
+
+       
+       <script src = "assets/js/script.js"></script>
+       <script src = "assets/js/statistics.js"></script>
+       
+    </body>
+</html>

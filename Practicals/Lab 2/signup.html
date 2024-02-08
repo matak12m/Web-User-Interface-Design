@@ -16,6 +16,7 @@
         <button> official articles</button>
         <button> services near me</button>
         <button> community page</button> 
+        <button onclick = "redirStatistics()"> statistics </button>
 
     </section>
     
@@ -27,15 +28,38 @@
 
        <header> Arboreal Community Foundation <p> Planting the roots for growth </header>
         
-        <form>
-            
-        
+        <div class = "textbox" id = "form">
+
+        <form id = "signUpForm">
+        <p>    
+        email:
+        <p>
+        <input type = "email" name = "email-input"> </input>  
+        <p>
+        nickname:
+        <p>
+        <input type = "text" name = "nickname-input"> </input>
+        <p>
+        password:
+        <p>
+        <input type = "password" name = "password-input" > </input>
+        <p>
+        confirm password:
+        <p> 
+        <input type = "password" name = "password-confirm" > </input>
+        <p>
+        would you like to join our newsletter?
+        <input type = "checkbox" name = "newsletter-input"> </input>
+        <p>
+        <input type = "submit" onclick="validateForm()"> </input>
+
         </form>
-        
+    </div>
 
 
        
        <script src = "assets/js/script.js"></script>
+       <script src = "assets/js/signup.js"></script>
        
     </body>
 </html>

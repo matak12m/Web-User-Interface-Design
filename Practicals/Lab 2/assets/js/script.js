@@ -9,16 +9,19 @@ expandMenu.addEventListener("click", handleMenu);
 function handleMenu() {
 
     console.log("chaning menu");
-    if (menu.style.visibility == "hidden") {
-        menu.style.visibility = "visible";
+    if (menu.style.width == "0px") {
+        menu.style.width = "300px";
+        
 
 
     }
     else {
-        menu.style.visibility = "hidden";
+        menu.style.width = "0px";
     }
 
 }
+
+
 
 
 function redirSignUp() {
@@ -27,4 +30,8 @@ function redirSignUp() {
 
 function redirHomePage() {
     window.location.href = "index.html";
+}
+
+function redirStatistics() {
+    window.location.href = "statistics.html";
 }
