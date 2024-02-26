@@ -151,18 +151,24 @@ th, td {
 }
 
 .flex-container{
+    width: 100%;
+    height: 50%;
+
 
     color: black;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: space-between;
 }
 
 .articleThumb {
     width: fit-content;
     height: fit-content;
-    max-width: 22vw;
+    
     margin: 1%;
     background-color: rgb(230, 226, 192); ;
-    text-align: center;
-    float: left;
+   
+
 
 
 }
@@ -170,6 +176,8 @@ th, td {
 .thumbnail {
     width:22vw;
     height:15vw;
+    float: left;
+    margin-right: 5px;
 }
 
  /*--asparagus: #60992dff;

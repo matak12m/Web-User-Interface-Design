@@ -35,3 +35,8 @@ function redirHomePage() {
 function redirStatistics() {
     window.location.href = "statistics.html";
 }
+
+function openWindow(url) {
+     var win =  window.open(url, 'newwindow', 'width = 30vw;', 'height = 24vw', 'target: _blank');
+     win.focus()
+}

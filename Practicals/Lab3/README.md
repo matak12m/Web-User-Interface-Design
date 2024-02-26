@@ -1,8 +1,9 @@
-This website is for a fictional community lead group called the Arboreal Community Foundation (ACF). 
-The purpose of this foundation is to educate and provide resources related to taking care of trees, as well as some related activities
-The target audience are gardeners and DIY oriented people 
 
-This version includes a sign-up page with a form, and a "statistics" page with a sortable table. The signup and statistics menu buttons now work.
+
+
+This version adds a new poppu window opening when you click the "click to sign up here" part of the text. 
+
+Also has some mock-up articles at the bottom of the main website, which are organized using a flexbox.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 notes for myself:
@@ -16,3 +17,6 @@ specific rounded corners can be sone by putting 4 different values to the border
 
 inherit: element inherits the value from its parent element - can be useful for colour and such
 
+
+flexboxes can be used to organize content into collumns, rows, and so on. by default, they have 1 collumn or row, but can be set to 
+use more using CSS
