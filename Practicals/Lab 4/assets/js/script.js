@@ -8,7 +8,7 @@ expandMenu.addEventListener("click", handleMenu);
 
 function handleMenu() {
 
-    console.log("chaning menu");
+    console.log("changing menu");
     if (menu.style.width == "0px") {
         menu.style.width = "300px";
         
