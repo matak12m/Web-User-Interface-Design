@@ -83,7 +83,7 @@ figure {
 }
 
 @media(max-width:1100){
-    .grid{
+    .flexbox{
         flex-direction:column;
     }
 }
