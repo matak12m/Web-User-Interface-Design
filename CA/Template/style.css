@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px #e4e4e4 solid;
+    display: grid;
+
+
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+article {
+    border: 1px #333 solid;
+    background-color: #fff;
+    padding: 10px;
+}
+
+table {
+    padding: 0px;
+    width: 100%;
+}
+
+.Inter-Web {
+    width: 50%;
+}
+
+td {
+    border: 1px #333 solid;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+th {
+    border: 1px #333 solid;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:1100){
+    .flexbox{
+        flex-direction:column;
+    }
+}
+
+
+
+
+div {
+    
+    max-width: 1100px;
+ 
+}
+
+.concept {
+    max-width: 550px;
+}
+
+.concept-group {
+    max-width: 550px;
+}
+
+
+main {
+    min-height:100px;
+    background-color:darkgray;
+    margin-right: 10px;
+    color:aliceblue
+}
+
+aside {
+    margin: 5px;
+    background-color: antiquewhite;
+    max-height: 90px;
+    
+}
+
+code {
+    background-color: #333;
+    font-family: monospace;
+    color:rgb(0, 190, 0);
+    padding: 10px;
+
+}
+
+

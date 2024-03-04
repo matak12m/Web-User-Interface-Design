@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internet and The World Wide Web</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>Learning Resource: Internet and The World Wide Web</h1>
+            </div>
+        </header>
+    
+
+        <div class="container">
+            <!-- Introduction to Web Architecture -->
+            <section id="web-architecture" class="web-architecture">
+                <h2>Introduction to Web Architecture</h2>
+                <article> the Web is connected through the Internet - physical network which connects computers worldwide. </article>
+                <br>
+                <article> 
+                    <h2> Web servers: Physical vs. Virtual</h2>
+                    <table>
+                    <tr>    
+                        <th>  Aspect</th> <th> Physical Server</th> <th> Virtual Server</th>
+                    </tr>
+
+                    <tr>
+                            <td> Hardware</td> <td> on-site server room/tower </td>  <td> online over-the-internet server </td>
+                    </tr>
+                    <tr>
+                            <td> Scalability</td>  <td>bigger server needs expanded server rooms</td> <td> bigger server needs more servers connected through the internet </td>
+
+                    </tr>
+                    <tr>
+                            <td> Cost </td> <td> ¯\_(._.)_/¯ </td>  <td> ¯\_(._.)_/¯</td>
+                    </tr>
+                </table>
+                </article>
+            </section>
+        
+            <!-- Web Protocols -->
+            <section id="web-protocols">
+                <section>
+                    <h2> Web Protocols</h2>
+                    <h3>HTTP</h3>
+                    <dl>
+                    <dt> HyperText Transfer Protocol</dt>
+                    <dd> Hypertext - text with added value, for example, a link to a different website. the Web is built upon this concept.</dd>
+                    This protocol helps to redirect the user to the appropriate website based on the URL. </dl>
+                </section>
+                <section>
+                    <h3>HTTPS </h3>
+
+                    <dl>
+                    <dt>HyperText Transfer Protocol - Secure</dt>
+                     this protocol, in addition to HTTP, provides additional security measures to make sure that your information cannot be stolen - passwords, credit card information, etc. <br> This is usually done by encrypting your information.</dl>
+                </section>
+                <section> 
+                    <h3>TCP/IP</h3>
+                    <dl>
+                    <dt>TCP = transmission control protocol. IPs are strings of random numbers unique to local servers/computers - they act as an adress.</dt>
+
+                    TCP helps users redirect to the correct IP. IPs are a string of numbers, however, people are much better at remembering names and words instead of random numbers, <br> so TPC translates domain names (ex. itcarlow.ie) into these IP numbers.</dl>
+                </section>
+                <section>
+                    <h3>FTP</h3>
+                    <dl> 
+                    <dt> File Tranfer Protocol</dt>
+                    this protocol handles transferring files - downloading, uploading, etc.</dl>
+
+                </section>
+                
+            </section>
+        
+            <!-- Web Concepts -->
+            <section id="web-concepts" class="web-concepts">
+            <div class = "flexbox">
+            <div class = "concept-group">
+
+                <article>
+                <figure>
+                    <h2>URLs and DNS</h2>
+
+                    URL stands for Uniform Resource Location. It consists of a protocol and a path.
+
+                    <img src = "example-url-structure.png">
+                    <figcaption> <i>fig 1: structure of a URL </i></figcaption>
+                </figure>
+
+                    Like its name implies, URLs lead to a single location of a specific resource. The protocol tells it what it is looking for, while the rest of it leads to the right file. <br>The domain and sub-domain lead to a server, where the file withing a folder is.
+                </article>
+
+                <article>
+                    <h2>Domain Name Systems</h2>
+                    each domain has its own unique name. We differentiate between domains and subsdomains. These describe the server on which the resource it.
+                </article>
+
+                <article>
+                    <h2>TLDs</h2>
+                    askjfgvbqeloahvlfiofguvlaqfiugwcfalfjbqoue;hfvauvgl
+                </article>
+
+                </div>
+
+                <div class = "concept">
+                    <article> 
+                        <h2>Cookies and Browsers</h2>
+                        Cookies are used to store data about you for your own convenience, or for marketing purposes. <p> for example, a Cookie on a weather forecast webpage could hold data on what cities you looked up previously, so you don't have to look for them again, and instead have them appear on a "previously viewed" section. <p> however, cookies can also harvest data used by advertisers, such as your interests, age, and other personal information, that is used to show you relevant ads.
+                    </article>
+                     <article>
+                        <h2>Browsers and Rendering Engines</h2>
+
+                        different browsers run on different REs, for example, Chrome, OperaGX, and Edge run on Chromium, while Firefox runs on a differnt Rendering Engine.
+                     </article>
+
+                    <article>
+                        <h2>The concept of caching</h2>
+                        Caching refers to storing data client-side, or proxy-side. These are used to save on processing for for the webpage/server. <p> For example, you could cache some data the user has entered into a form, so that if they accidentally close the page, they can reload and have their data saved. 
+                    </article>
+                    
+                </div>
+
+                </div>
+            </section>
+        
+            <!-- Internet vs. The Web -->
+            <section id="internet-vs-web">
+                <h2>Internet vs. the Web</h2>
+
+                <table class = "Inter-Web">
+                    <tr>    
+                        <th> Internet </th> <th> Web </th> 
+                    </tr>
+
+                    <tr>
+                            <td> Physical network</td> <td> Virtual Network </td>  
+                    </tr>
+                    <tr>
+                            <td> Consists of cables </td> <td> Consists of HyperText linking websites together</td> 
+
+                    </tr>
+                    <tr>
+                            <td> Is the foundation </td> <td> Runs on the internet </td> 
+                    </tr>
+                </table>
+
+                <article> 
+                    the web consists of servers and clients. Servers operate webpages and store files, while clients interact with the server. Servers act as a database, which are also created by the clients.
+                </article>
+
+
+                
+            </section>
+        
+            <!-- Communication between Client and Server -->
+            <section id="client-server-communication" class="client-server">
+                <h2>Communication between Client and Server</h2>
+
+                <div class = "flexbox">
+
+                <main> The request-response model is dependant on the user sending a request, to which the server then sends a response. All the actions taken are dependent on the user.  </main> 
+
+                <aside> 
+                    The stateless protocol is a <b>(redacted)</b> that <b>(data expunged) </b>
+                </aside>
+
+                <aside> 
+                    Websockets enable a two-way communication between the server and the client by <b>(redacted)</b>
+                </aside>
+
+               </div>
+            </section>
+        
+            <!-- Client-side Development Technologies -->
+            <section id="client-side-tech">
+                <h2>Client-side Development Technologies</h2>
+                Front-End development uses HTML, CSS and Javascript to create an environment for users. 
+
+                <code> 
+                    HTML - HyperText Markup Language <br> is used to structure content on a webpage, and to establish hiararchies.
+                    <pre> Example: <br>
+
+                        < body>
+                        < header>
+                            < div class="container">
+                                < h1>Learning Resource: Internet and The World Wide Web< /h1>
+                            < /div>
+                        < /header> 
+                        < /body>
+                     </pre>
+                </code>
+
+                <code>
+                    CSS - Cascading Styles <br> is used to enhance HTML with styling. it uses classes and ids to assign specific attributes. they are cascading - the most specific style takes precedent over the broader one.
+                    <pre>  </pre>
+
+                </code>
+
+                <code>
+                    Javascript <br> is used to make the webpage interactive through functions. one of its most useful functions is event listeners. which can make the webpage react to many different actions.
+                    <pre>   </pre>
+
+                </code>
+                
+            </section>
+        </div>        
+    
+        <footer>
+            <p>Web UI Design Course - Year 2, Semester 2</p>
+        </footer>
+    </body>
+</html>    
