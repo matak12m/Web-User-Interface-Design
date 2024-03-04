@@ -82,34 +82,34 @@ a {
 
 #menu {
     
-    float: right;
+    float: left;
     height: 100%;
     width: 0px;
     position: fixed;
-    right: 0;
+    left: 0;
     top: 0;
     background-color: rgb(74, 105, 47);
     transition: 0.5s;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 0px 20px 20px 0px;
     
 }
 
 #menuHolder {
-    float: right;
+    float: left;
     width:20vw;
     
 }
 
 
 #expandMenu {
-    float: right;
+    float: left;
     height: 50px;
     width: 50px;
     position: fixed;
-    right: 0;
+    left: 0;
     top: 0;
     background-color:#946846ff;
-    border-radius: 0px 0px 0px 20px;
+    border-radius: 0px 0px 20px 0px;
     
 }
 
@@ -125,7 +125,7 @@ a {
 #menuHeader {
     width: inherit;
     height: 50px;    
-    float: right;
+    float: left;
     text-align: center;
     color:aliceblue;
     font-size: 22pt;
@@ -135,7 +135,8 @@ a {
 }
 
 button {
-    margin-left: 2.5vw;
+    transition: 0.5s;
+    margin-right: 2.5vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
     width: 200px;
@@ -144,6 +145,11 @@ button {
     border-radius: 20%;
     border: 2px solid #946846ff;
 }
+
+.menubutton {
+    visibility: hidden;
+}
+
 
 button:hover {
     background-color: rgb(108, 151, 70);
@@ -211,8 +217,8 @@ th, td {
 }
 
 .thumbnail {
-    width:22vw;
-    height:15vw;
+    height:25vh;
+
     float: left;
     margin-right: 5px;
 }
@@ -222,6 +228,13 @@ video {
     display: block;
 }
 
+
+#expandText {
+
+    color:rgb(19, 19, 148);
+    text-decoration: underline;
+
+}
 
  /*--asparagus: #60992dff;
 --olivine: #8cae68ff;
