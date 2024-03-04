@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matt Martinek">
+        <title>lab 4</title>
+        <link href="assets/css/style.css" rel="stylesheet" text="text/css">
+    </head>
+    <body>
+        
+    
+    <span id = "menu">
+
+        <div id = menuHeader> Menu </div>
+        
+        <button class = "menubutton" style = "background-color: rgb(108, 151, 70);"> Home </button>
+        <button class = "menubutton" onclick = 'redirSignUp()'> sign up </button>
+        <button class = "menubutton"> official articles</button>
+        <button class = "menubutton"> services near me</button>
+        <button class = "menubutton"> community page</button> 
+        <button class = "menubutton" onclick = 'redirStatistics()'> statistics</button> 
+
+    </span>
+    
+
+    <div class = "menuHolder">
+    <div id = "expandMenu">  </div>
+    </div>
+
+
+       <header> Arboreal Community Foundation <p> Planting the roots for growth </header>
+        
+    <section class = "text">
+    <div class = "grid-container">
+
+        
+
+    <div class = "item1">
+       <h3>The ACF's mission is to provide everyone with all the information they might need to take care of their trees.</h3>
+    </div>
+
+    <div class = "item2">
+        We have all the guides for pruning,  planting, and maintaining your trees.
+       We also allow community members to make  their own articles on how to utilise the fruits of our labour.
+
+      <br> Are you interested in sharing tips on tree care?  come and join us and become a part of the community.
+        <br><button onclick="openWindow('signup.html')", style = 'font-size: 20pt'> <u> sign up now! </u>  </button> <br>
+    
+        <p>
+       Not sure where to start? click <a href = "https://www.dermotcaseytreecare.ie/">here</a> to access an article to get you started!
+        
+       </div>
+
+       <div class = "item3">
+        <picture>
+
+            <source media = "(min-width:850px)" srcset = "assets/img/treeBackground.jpg">
+            <img id = "treeImg" src = 'assets/img/forest.jpg' alt = "Tree">
+        
+        </picture>
+        </div>
+
+       
+
+        <div class = "item4">
+            The inner workings of this website is... <span id = "expandText"> click to see more  </span>
+        
+        </div>
+        
+    
+        
+    </div>
+    </section>
+    
+
+       
+    <section id = "article"  style = "margin-top: 50px;"> 
+        
+        <h2>Our Articles:</h2>
+        <div class = "flex-container">  
+            
+
+            <span class = "articleThumb" onclick = 'redirVideo("www.youtube.com/watch?v=rT9IJXuHbKs")'> <img class = "thumbnail" src = "assets/img/mapleSyrup.jpg"> <p>  Maple syrup made easy! watch this tutorial by the amazing Adam Ragusea to start you on your journey of tree syrup.</p> </span>
+            <span class = "articleThumb"> <img class = "thumbnail" src = "https://149369349.v2.pressablecdn.com/wp-content/uploads/2011/10/tree.jpg"> <p> sunt in culpa qui officia deserunt mollit anim id est laborum esta tres anomali kurto.</p></span>
+            <span class = "articleThumb"> <img class = "thumbnail" src = "https://th.bing.com/th/id/OIP.YaamdVHObVZSNgaM_tjqIAHaE8?rs=1&pid=ImgDetMain"> <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. mortars igni arotas en.</p></span>
+            <span class = "articleThumb"> <img class = "thumbnail" src = "https://149369349.v2.pressablecdn.com/wp-content/uploads/2011/10/tree.jpg">  <p> sunt in culpa qui officia deserunt mollit anim id est laborum esta tres anomali kurto.</p></span>
+        
+        
+        
+        </div>
+
+
+    </section>
+    
+    <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Freepik - Flaticon</a>
+       <script src = "assets/js/script.js"></script>
+       
+    </body>
+</html>

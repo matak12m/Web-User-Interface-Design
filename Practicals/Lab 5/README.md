@@ -1,7 +1,9 @@
 
 
 
-this version adds expandable article and an alternate image for lower width.
+This version adds a new poppu window opening when you click the "click to sign up here" part of the text. 
+
+Also has some mock-up articles at the bottom of the main website, which are organized using a flexbox.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 notes for myself:
@@ -18,9 +20,3 @@ inherit: element inherits the value from its parent element - can be useful for 
 
 flexboxes can be used to organize content into collumns, rows, and so on. by default, they have 1 collumn or row, but can be set to 
 use more using CSS
-
-grids can accomplish a similar thing, except you can specify exactly what space each element should take up on a grid, even allowing for vertical ones.
-
-alternate images are easy to add - just put a <source> tag with media: specifying the resolution requirement. 
-
-nav bar on the right is a bit tricky the way I did it - the buttons simply appear at all times instead of only when the menu is expanded. Maybe remove the expandable menu in wide-enough screens?
