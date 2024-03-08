@@ -7,8 +7,11 @@ expandTextButton.addEventListener("click", expandText);
 
 
 
-expandMenu.addEventListener("click", handleMenu);
 
+
+function loadMenu() {
+    expandMenu.addEventListener("click", handleMenu);
+}
 
 
 function handleMenu() {

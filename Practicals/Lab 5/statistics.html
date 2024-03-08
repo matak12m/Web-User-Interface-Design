@@ -7,19 +7,21 @@
         <title>lab 4</title>
         <link href="assets/css/style.css" rel="stylesheet" text="text/css">
     </head>
-    <body>
+    <body onload = "loadMenu()">
         
     
-    <section id = "menu">
-        
-        <button onclick = "redir('index.html', 0)"> home page </button>
-        <button onclick = "redir('signup.html', 0)"> sign up </button>
-        <button> official articles</button>
-        <button> services near me</button>
-        <button> community page</button> 
-        <button style = "background-color: rgb(108, 151, 70);"> statistics </button>
+        <span id = "menu">
 
-    </section>
+            <div id = menuHeader> Menu </div>
+            
+            <button class = "menubutton" onclick = 'redirHome()'> Home </button>
+            <button class = "menubutton" onclick = 'redirSignUp()' > sign up </button>
+            <button class = "menubutton"> official articles</button>
+            <button class = "menubutton"> services near me</button>
+            <button class = "menubutton"> community page</button> 
+            <button class = "menubutton" style = "background-color: rgb(108, 151, 70);"> statistics </button> 
+    
+        </span>
     
 
     <div class = "menuHolder">

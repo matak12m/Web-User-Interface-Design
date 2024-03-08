@@ -196,12 +196,14 @@ th, td {
     color: black;
     display:flex;
     flex-wrap:wrap;
-    align-content: space-between;
+    align-content:center;
+
 }
 
 .articleThumb {
-    width: fit-content;
+    width:fit-content;
     height: fit-content;
+    max-width: 30vw;
     
     margin: 1%;
     background-color: rgb(230, 226, 192); ;
