@@ -8,83 +8,136 @@
         <link href="assets/css/style.css" rel="stylesheet" text="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
-    <body onload = "loadMenu()">
-        
-    
-        <span id = "menu">
+    <body onload="loadMenu()">
 
-            <div id = menuHeader> Menu </div>
-            
-            <button class = "menubutton" onclick = 'redirHome()'> Home </button>
-            <button class = "menubutton" onclick = 'redirSignUp()' > sign up </button>
-            <button class = "menubutton"> official articles</button>
-            <button class = "menubutton"> services near me</button>
-            <button class = "menubutton"> community page</button> 
-            <button class = "menubutton" style = "background-color: rgb(108, 151, 70);"> statistics </button> 
-    
+
+        <span id="menu">
+
+            <div id=menuHeader> Menu </div>
+
+            <button class="menubutton" onclick='redirHome()'> Home </button>
+            <button class="menubutton" onclick='redirSignUp()'> sign up </button>
+            <button class="menubutton"> official articles</button>
+            <button class="menubutton"> services near me</button>
+            <button class="menubutton"> community page</button>
+            <button class="menubutton" style="background-color: rgb(108, 151, 70);"> statistics </button>
+
         </span>
-    
-
-    <div class = "menuHolder">
-    <div id = "expandMenu"></div>
-    </div>
 
 
-       <header> Arboreal Community Foundation <p> Planting the roots for growth </header>
+        <div class="menuHolder">
+            <div id="expandMenu"></div>
+        </div>
+
+
+        <header> Arboreal Community Foundation <p> Planting the roots for growth </header>
 
         <main>
-        <div class = "textbox">
 
-            <p style = "padding: 1%;">
-            Here you can see how our community has grown over time, as well as how many trees we have planted, which is one of our goals.
-            Click on the header words to sort the table!
-           </p>
 
-        <table id = "statisticsTable">
-            
-            <th onclick = "sortTable(0)">month</th><th onclick = "sortTable(1)">new users</th>  <th onclick = "sortTable(2)"> number of visits</th> <th onclick = "sortTable(3)">trees planted together</th>
 
-            <tr>
-               <td>January</td> <td> 81</td>  <td> 1492</td> <td>379</td>
-                
-            </tr>
 
-            <tr>
-                <td>December</td> <td> 78</td>  <td> 2901 </td> <td>124</td>
-                 
-             </tr>
+            <section class="text">
+                <div class="grid-container">
 
-             <tr>
-                <td>November</td> <td> 53</td>  <td> 1893 </td> <td>179</td>
-                 
-             </tr>
-        </table>
-        </div>
+
+
+                    <div class="item1">
+                        <h3>This table shows the statistics of our cause. You can see how many people have joined, how many we have total, as well as how many trees we have planted together in a given month. </h3>
+                    </div>
+
+                    <div class="item2">
+                        <table id="statisticsTable">
+
+                            <th onclick="sortTable(0)">month</th>
+                            <th onclick="sortTable(1)">new users</th>
+                            <th onclick="sortTable(2)"> number of visits</th>
+                            <th onclick="sortTable(3)">trees planted together</th>
+
+                            <tr>
+                                <td>January</td>
+                                <td> 81</td>
+                                <td> 1492</td>
+                                <td>379</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>December</td>
+                                <td> 78</td>
+                                <td> 2901 </td>
+                                <td>124</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>November</td>
+                                <td> 53</td>
+                                <td> 1893 </td>
+                                <td>179</td>
+
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="item3">
+
+                        <h3> Do you want to help us increase these numbers? <br> sign up now to take part in our collaborative tree planting.</h3>
+                        <br><button id="callToAction" style='font-size: 20pt'> <u> sign up now! </u>  </button> <br>
+                    </div>
+
+
+
+                    <div class="item4">
+                        The inner workings of this website is... <span id="expandText"> click to see more  </span>
+
+                    </div>
+
+
+
+                </div>
+            </section>
 
         </main>
 
-        <section id = "article"  style = "margin-top: 50px;"> 
-        
+        <section id="article" style="margin-top: 50px;">
+
             <h2>Our Articles:</h2>
             <article>
-            <div class = "flex-container">  
-                
-    
-                <span class = "articleThumb" onclick = 'redirVideo("www.youtube.com/watch?v=rT9IJXuHbKs")'> <img class = "thumbnail" src = "assets/img/mapleSyrup.jpg"> <p>  Maple syrup made easy! watch this tutorial by the amazing Adam Ragusea to start you on your journey of tree syrup.</p> </span>
-                <span class = "articleThumb"> <img class = "thumbnail" src = "https://149369349.v2.pressablecdn.com/wp-content/uploads/2011/10/tree.jpg"> <p> sunt in culpa qui officia deserunt mollit anim id est laborum esta tres anomali kurto.</p></span>
-                <span class = "articleThumb"> <img class = "thumbnail" src = "https://th.bing.com/th/id/OIP.YaamdVHObVZSNgaM_tjqIAHaE8?rs=1&pid=ImgDetMain"> <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. mortars igni arotas en.</p></span>
-                <span class = "articleThumb"> <img class = "thumbnail" src = "https://149369349.v2.pressablecdn.com/wp-content/uploads/2011/10/tree.jpg">  <p> sunt in culpa qui officia deserunt mollit anim id est laborum esta tres anomali kurto.</p></span>
-            
-            
-            
-            </div>
-        </article>
-    
+                <div class="flex-container">
+
+
+                    <span class="articleThumb" onclick='redirVideo("www.youtube.com/watch?v=rT9IJXuHbKs")'> <img class="thumbnail" src="assets/img/mapleSyrup.jpg"> <p class="articleText">  Maple syrup made easy! watch this tutorial by the amazing Adam Ragusea to start you on your journey of tree syrup.</p> </span>
+                    <span class="articleThumb"> <img class="thumbnail" src="assets/img/planting.png"> <p class="articleText"> Our yearly "Plant a Christmas tree" event was more succesful than ever before. With over 300 trees planted together, we proudly say no to both plastic and wasteful tree cutting. Click to learn more! </p></span>
+                    <span class="articleThumb"> <img class="thumbnail" src="assets/img/twigFence.jpg"> <p class="articleText"> Making your own tree guard is easy. You can reuse twigs from pruning to make a unique texture that you won't find sold in a shop. </p></span>
+                    <span class="articleThumb"> <img class="thumbnail" src="https://149369349.v2.pressablecdn.com/wp-content/uploads/2011/10/tree.jpg">  <p class="articleText"> Ever wished you could have a single tree that grows all your favourite fruit? It might be more than just a fantasy. Grafting is a practice of attaching a tree bud to a tree of a different species, creating a branch that grows a different fruit.</p></span>
+
+
+
+                </div>
+            </article>
+
         </section>
 
-       
-       <script src = "assets/js/script.js"></script>
-       <script src = "assets/js/statistics.js"></script>
-       
+
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/statistics.js"></script>
+
+        <script>
+            $(document).ready(function () {
+
+                $('#callToAction').click(function () {
+                    window.open('signup.html')
+                    console.log("opening signup")
+                    return false;
+
+                });
+
+            });
+
+
+
+        </script>
+
     </body>
 </html>

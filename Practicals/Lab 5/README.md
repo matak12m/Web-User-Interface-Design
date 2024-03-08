@@ -1,9 +1,12 @@
 
 
 
-This version adds a new poppu window opening when you click the "click to sign up here" part of the text. 
+This version overall improves the look of the webpage, fixes previous issues, and makes adds following features:
 
-Also has some mock-up articles at the bottom of the main website, which are organized using a flexbox.
+responsive style based on the width of the page
+call to action button which now runs on Jquery instead of javascript
+restructured the pages using <main>, <section>, and so on
+Reworked the statistics page.S
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 notes for myself:

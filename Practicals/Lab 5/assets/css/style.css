@@ -171,10 +171,17 @@ float:none;
 
 
 table {
+    width: fit-content;
+    height: fit-content;
+    max-width: 50vw;
+    max-height: 50vh;
     background-color: rgb(230, 226, 192); 
-    border:  2px solid;
+    border: 2px solid black;
     border-collapse: collapse;
     margin: 20px;
+    font-size: 25px;
+    color:black;
+
 
 }
 
@@ -203,18 +210,24 @@ th, td {
 .articleThumb {
     width:fit-content;
     height: fit-content;
-    max-width: 30vw;
+    max-width: 22vw;
     
     margin: 1%;
-    background-color: rgb(230, 226, 192); ;
+    background-color: rgb(230, 226, 192) ;
    
 
 
 
 }
 
+.articleText {
+     color: black;
+     margin: 2px;
+     font-style:normal;
+}
+
 .thumbnail {
-    width: 30vw;
+    width: 22vw;
 
     float: left;
     margin-right: 5px;
@@ -258,6 +271,23 @@ video {
     #treeImg {
         min-width: 30vw;
     }
+    table {
+        font-size: 20px;
+        max-width: none;
+        width: 90%;
+    }
+    .grid-container {
+       
+        grid-template-areas:
+            'header'
+            'textfield'
+            'image '
+            'footer';
+    }
+
+
+
+
 }
 
  /*--asparagus: #60992dff;
