@@ -26,3 +26,14 @@ use more using CSS
      - same goes for <section> and <article>
 
 putting a menu on the left side of the document is harder than putting it on the right - since the webpage starts at 0 0, which is top left, that means that there isnt any free space to the left - elements cannot easily slide onto the screen from outside.
+
+
+
+JQUERY:
+
+ - basically a shorthand version of javascript, one level of abstraction higher. It functions on javascript, with the same functions, but it can compress the code you write.
+    => same thing as js, different syntax
+    $ acts as a selector, example - $("button") selects all buttons, $(".myClass") selects all objects with a class, &("div:has(p)") selects all divs that contain a paragraph tag
+
+  - Jquery can be linked by a CDN - usually in the head of an html.
+ DOM - document object model - the document itself is an object
