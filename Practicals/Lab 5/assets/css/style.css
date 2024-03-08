@@ -214,7 +214,7 @@ th, td {
 }
 
 .thumbnail {
-    height:25vh;
+    width: 30vw;
 
     float: left;
     margin-right: 5px;
@@ -231,6 +231,33 @@ video {
     color:rgb(19, 19, 148);
     text-decoration: underline;
 
+}
+
+@media (max-width: 1450px) {
+
+    .thumbnail {
+        max-width: inherit;
+        height:auto;
+    }
+
+}
+
+@media (max-width: 730px) {
+    .flex-container {
+        flex-direction: column;
+        align-content:center;
+    }
+    .thumbnail {
+        width: 90vw;
+        max-height: none;
+
+    }
+    .articleThumb {
+        max-width: 90vw;
+    }
+    #treeImg {
+        min-width: 30vw;
+    }
 }
 
  /*--asparagus: #60992dff;
