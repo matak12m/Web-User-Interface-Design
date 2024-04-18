@@ -14,6 +14,17 @@ let aboutMeArticle = document.getElementById("aboutMe")
 let learnMoreText = document.getElementById("learnMore")
 
 
+document.getElementById("onTheClock").addEventListener("click", () => expandProject("onTheClock"))
+
+document.getElementById("cheatYourWayThrough").addEventListener("click", () => expandProject("cheatYourWayThrough"))
+
+document.getElementById("GGJ23").addEventListener("click", () => expandProject("GGJ23"))
+
+document.getElementById("GGJ24").addEventListener("click", () => expandProject("GGJ24"))
+
+document.getElementById("Hooked").addEventListener("click", () => expandProject("Hooked"))
+
+
 
 
 let allProj = document.getElementsByClassName("project"); //project is a standalone class only for the purposes of this array - may change later
@@ -161,6 +172,11 @@ function expandProject(projectCard) {
 
 
     //listen for click anywhere outside the expanded project card - elements outside it
+
+
+
+
+    
     mainInfo.addEventListener("click",minimizeProject);
     buttonsSection.addEventListener("click",minimizeProject);
 }
@@ -191,8 +207,9 @@ function minimizeProject() {
         }
     } 
 
-    currentProject.innerHTML = storedHTML;
 
+    currentProject.innerHTML = storedHTML;
+    
     mainInfo.removeEventListener("click",minimizeProject); 
     buttonsSection.removeEventListener("click",minimizeProject);
 

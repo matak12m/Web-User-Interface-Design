@@ -68,7 +68,11 @@ button {
 button:hover{
     background-color: grey;
 }
-
+#backButton {
+    width: 15%;
+    height: auto;
+    background-color: black;
+}
 #all-button{
     background-color: rgb(255,204,0);
 }
@@ -118,7 +122,7 @@ img {
     float: left;
     width: 30%;
     padding-left: 35%;
-    padding-right: 35%;
+    padding-right: 20%;
     margin-bottom: 50px;
 }
 
@@ -169,7 +173,14 @@ img {
     float: left;
     width: 45%;
     margin:2.5%;
-    height:fit-content;
+    min-height:fit-content;
+    
+}
+
+.imagesExpanded {
+    width: 45%;
+    margin:2.5%;
+    min-height:fit-content;
 }
 
 @font-face {
