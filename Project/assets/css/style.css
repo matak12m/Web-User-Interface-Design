@@ -237,17 +237,13 @@ img {
     }
 
 
-    h1 {
-        margin: 100%
-
-    }
-
     #icons-article {
         margin:auto;
     }
 
     article {
         font-size: 25pt;
+        max-width: none;
     }
     p{
         width: 90vw;

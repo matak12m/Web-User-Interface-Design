@@ -22,3 +22,5 @@ The semantic elements are used to create a hierarchy or content, where <main> is
 One of the things that didn't make it into the portfolio was the background pieces forming a frame around the header and articles in
 <main>, as it would be difficult to make them scale with any resolution, have them not cover up other shapes in the background, and 
 have the around the text instead of behind it. I may look into this in the future. 
+
+all images have an alt text attached to them.
