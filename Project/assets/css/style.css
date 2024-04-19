@@ -96,13 +96,16 @@ button:hover{
 #projects-space {
     background-color: rgb(255,204,0);
     width: 100%;
-    min-height: 90vh;
+    min-height: 50vh;
     height:fit-content;
     border-radius: 0px 10px 10px 10px;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    align-items: flex-start;
+
+    align-content: baseline;
+    align-items:start;
+
 
     transition-duration: 0.25s;
 
@@ -290,5 +293,20 @@ img {
 
 }
 
+@media(min-width: 1500px) {
+    #projects-space {
+        height:fit-content;
+        border-radius: 0px 10px 10px 10px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        -ms-flex-item-align:start;
+    
+        transition-duration: 0.25s;
+    
+    
+    }
+
+}
 
 
